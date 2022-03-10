@@ -1,0 +1,15 @@
+.modal {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .modalContent {
+    background: #dcffee;
+    color: #469F74;
+    font-size: 24px;
+  }
+  
+  .modalDialog {
+    width: 40vw !important;
+    max-width: 70vw !important;
+  }

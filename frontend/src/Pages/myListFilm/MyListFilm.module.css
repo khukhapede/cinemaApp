@@ -1,0 +1,57 @@
+.mainBody {
+  min-height: 92vh;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.pageTitle {
+  margin: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.pageTitle h2 {
+  text-align: left;
+  font-size: 36px;
+  font-weight: bold;
+  padding-left: 30px;
+}
+
+.filmList {
+  height: 80vh;
+  overflow: scroll;
+  width: 92vw;
+}
+
+.filmList::-webkit-scrollbar {
+  display: none;
+}
+
+.movCardList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 30px;
+}
+
+.movCard {
+  height: 250px;
+  width: 180px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.cancelCard {
+  height: 250px;
+  width: 180px;
+  border-radius: 10px;
+  margin: 10px;
+  opacity: 0.4;
+}

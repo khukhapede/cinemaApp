@@ -1,0 +1,25 @@
+.modal {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.modalContent {
+  background-color: black;
+  color: #cd2e71;
+}
+
+.modalDialog {
+  width: 30vw !important;
+  max-width: none !important;
+}
+
+.switch {
+  background: none;
+  border: none;
+  color: white;
+}
+
+.buttonLogin {
+  background: #cd2e71;
+  border: none;
+}

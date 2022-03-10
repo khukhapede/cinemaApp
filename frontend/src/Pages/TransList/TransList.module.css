@@ -1,0 +1,55 @@
+.mainBody {
+  min-height: 92vh;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 100px;
+}
+
+.title {
+  width: 90%;
+  text-align: left;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.table {
+  width: 80vw;
+  margin-bottom: 10px;
+}
+
+.approve {
+  color: rgb(0, 209, 0);
+  width: 100%;
+  padding-bottom: 5px;
+  border-bottom: 2px solid white;
+}
+
+.cancel {
+  color: rgb(252, 31, 31);
+  width: 100%;
+  padding-bottom: 5px;
+}
+
+.approve:hover,
+.cancel:hover {
+  background: rgb(87, 87, 87);
+}
+
+.pendingStat {
+  color: #f7941e;
+  font-weight: bold;
+}
+
+.approveStat {
+  color: #0acf83;
+  font-weight: bold;
+}
+
+.cancelStat {
+  color: #ff0742;
+  font-weight: bold;
+}

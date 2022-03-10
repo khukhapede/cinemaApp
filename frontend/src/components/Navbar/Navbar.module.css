@@ -1,0 +1,137 @@
+.main {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  height: 8vh;
+  align-items: center;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  flex: 50%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.button {
+  flex: 50%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+
+.brand {
+  width: 145px;
+  height: 45;
+}
+
+.btnRegister {
+  display: inline-block;
+  min-width: 80px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 15px;
+  margin: 5px 10px;
+  color: white;
+  font-weight: bold;
+  background: #cd2e71;
+}
+
+.btnRegister:active {
+  background: #ff68a7;
+}
+
+.btnLogin {
+  display: inline-block;
+  min-width: 80px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 15px;
+  margin: 5px 10px;
+  background-color: rgb(54, 54, 54);
+  color: white;
+  font-weight: bold;
+}
+
+.btnLogin:active {
+  background-color: rgb(109, 108, 108);
+}
+
+.btnProfile {
+  margin-right: 60px;
+  position: relative;
+  display: inline-block;
+}
+
+.imgProfile {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid violet;
+}
+
+.dropdownMenu {
+  display: none;
+  position: absolute;
+  background-color: black;
+  border-radius: 10px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  right: 0;
+  z-index: 1;
+}
+
+.btnProfile:hover .dropdownMenu {
+  display: block;
+}
+
+.dropdownContent {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  text-align: left;
+}
+
+.dropdownList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+  padding: 5px;
+}
+
+.dropdownList:hover {
+  cursor: pointer;
+  background-color: #3d3d3d;
+  border-radius: 10px;
+}
+
+.dropdownImg {
+  flex: 30%;
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+.dropdownText {
+  flex: 70%;
+  font-weight: bold;
+  min-width: 100px;
+}
+
+.imgProfileAdmin {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid white;
+}

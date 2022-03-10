@@ -1,0 +1,106 @@
+.mainBody {
+  min-height: 92vh;
+  background: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px 100px;
+}
+
+.movImage {
+  padding-top: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex: 2;
+}
+
+.movImage img {
+  height: 385px;
+  width: 250px;
+  object-fit: cover;
+}
+
+.movDetail {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.movieHead {
+  display: flex;
+  flex-direction: row;
+  width: 735px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.movieTitle {
+  font-weight: bold;
+  font-size: 36px;
+  text-align: left;
+  margin-bottom: 5px;
+  flex: 1;
+}
+
+.buyBtn {
+  height: 40px;
+  width: 100px;
+  display: inline-block;
+  border: none;
+  background-color: #cd2e71;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.pendingBtn {
+  height: 40px;
+  width: 100px;
+  display: inline-block;
+  border: none;
+  background: none;
+  border-radius: 5px;
+  color: rgb(109, 109, 109);
+  font-weight: bold;
+}
+
+.moviePlayer {
+  width: 735px;
+  height: 315px;
+  overflow: hidden;
+}
+
+.moviePlayer img {
+  width: 735px;
+  height: 315px;
+  object-fit: cover;
+}
+
+.genre {
+  color: #7e7e7e;
+  font-weight: bold;
+  font-size: 24;
+  margin: 5px 0px;
+}
+
+.price {
+  color: #cd2e71;
+  font-weight: bold;
+  font-size: 24;
+  margin: 5px 0px;
+}
+
+.desc {
+  width: 735px;
+  height: 30vh;
+  text-align: justify;
+  overflow: scroll;
+}
+
+.desc::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,114 @@
+.mainBody {
+  min-height: 92vh;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.title {
+  text-align: left;
+  font-size: 24px;
+  width: 80%;
+  margin: 0px 16px;
+  padding-left: 50px;
+}
+
+.formSec {
+  width: 70%;
+  min-height: 80vh;
+  padding-top: 30px;
+}
+
+.listandBtn {
+  display: flex;
+  flex-direction: row;
+}
+
+.genreList {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px 16px;
+}
+
+.genre {
+  width: 200px;
+  background-color: #585858;
+  border: 2px solid white;
+  color: white;
+  border-radius: 5px;
+}
+
+.addGenresBtn {
+  background-color: #585858;
+  border: none;
+  margin-left: 10px;
+}
+
+.addGenresBtn:hover {
+  background-color: #8a8a8a;
+}
+
+.addGenresBtn:active {
+  background-color: #cd2e71;
+  border: none;
+}
+
+.uploadRow {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.uploadBtn {
+  background-color: #585858;
+  margin: 15px;
+  min-width: 120px;
+  height: 30px;
+  border-radius: 10px;
+  padding-top: 2px;
+}
+
+.inputSec {
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+}
+
+.inputBox {
+  background-color: #585858;
+  margin: 20px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+}
+
+.descBox {
+  background-color: #585858;
+  margin: 20px;
+  height: 100px;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+}
+
+.inputBox::placeholder {
+  color: white;
+  opacity: 0.6;
+}
+
+.descBox::placeholder {
+  color: white;
+  opacity: 0.6;
+}
+
+.subBtn {
+  width: 190px;
+  background-color: #cd2e71;
+  border: none;
+  margin-right: 16px;
+}

@@ -1,0 +1,55 @@
+.mainBody {
+  width: 420px;
+  height: 100px;
+  background-color: #b12a628f;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 12px;
+}
+
+.transDetail {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.transTitle {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.transDate {
+  font-size: 9px;
+}
+
+.transPrice {
+  font-size: 10px;
+  color: #ff579d;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.transStat {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 100%;
+}
+
+.stat {
+  font-size: 10px;
+  height: 20px;
+  min-width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
