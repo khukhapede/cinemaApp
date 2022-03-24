@@ -7,7 +7,6 @@ import Register from "../Register/Register";
 
 import { useNavigate } from "react-router-dom";
 import { UserContext } from "../../context/userContext";
-import { API } from "../../config/api";
 
 export default function Navbar() {
   const [rgShow, setRgShow] = useState(false);
